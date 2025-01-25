@@ -1,7 +1,7 @@
 import { Rufina, Poppins, Roboto_Slab } from 'next/font/google'
 
 export const rufina = Rufina({
-    weight: '400',
+    weight: '700',
     subsets: ['latin'],
     display: 'swap'
 })
