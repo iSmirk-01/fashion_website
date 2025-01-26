@@ -8,9 +8,9 @@ import pex3 from '@/public/images/pexels-dima-valkov-6503007 3.png'
 function BestSelling() {
   return (
     <div className="w-full min-h-[800] flex flex-col  items-center justify-center gap-10 py-12">
-      <div className="h-full flex flex-col gap-10 items-center text-greenDark">
+      <div className="h-full flex flex-col gap-10 items-center text-greenDark px-4">
         <h1 className={`${roboto_Slab.className} text-6xl`}>Best selling</h1>
-        <p className="font-semibold">
+        <p className="font-semibold ">
           Get in on the trend with our curated selection of best-selling styles.
         </p>
       </div>

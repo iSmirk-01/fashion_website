@@ -14,13 +14,13 @@ interface Props {
 
 function Card({ src, alt, className, title, price, rating }: Props) {
   return (
-    <div className='flex flex-col items-center justify-center w-full h-full gap-5'>
-      <Image src={src} alt={alt} className={`${className}`} width={250} height={100} />
+    <div className='flex flex-col items-center justify-center w-full h-full gap-5 px-4'>
+      <Image src={src} alt={alt} className={`${className} max-w-[250] max-h-[297]`} width={250} />
       <div className='flex flex-col items-center justify-center gap-2'>
         <p className='font-bold text-gray-800'>{title}</p>
-        <div className='flex gap-4'>
+        <div className='flex gap-8'>
             <Price priceInCents={price}/>
-            <div className='h-full bg-gray-500 rounded w-[1.33]' />
+            <span className='text-gray-500'>|</span>
             <Rating rating={rating} />
         </div>
       </div>
