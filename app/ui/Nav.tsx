@@ -32,7 +32,7 @@ function Nav() {
     }, [isMenuOpen])
 
   return (
-    <nav className="w-full h-20 p-10 md:px-20 py-4 bg-lime" ref={navRef}>
+    <nav className="w-full h-20 p-10 md:px-20 py-4 bg-lime mx-auto" ref={navRef}>
       <div className="flex items-center justify-between text-greenDark">
         <h1 className={`${rufina.className} text-4xl`}>Rivo</h1>
         <div className="hidden md:flex items-center justify-between min-w-[55%] ">

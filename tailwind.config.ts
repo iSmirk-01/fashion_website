@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        largeTab: "1620px"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
