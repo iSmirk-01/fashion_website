@@ -1,4 +1,5 @@
 import BestSelling from "./ui/BestSelling";
+import FeedBack from "./ui/FeedBack";
 import Hero from "./ui/Hero";
 import Nav from "./ui/Nav";
 import Offer from "./ui/Offer";
@@ -15,6 +16,7 @@ export default function Home() {
           <OurProducts />
           <Offer />
           <ShowCase />
+          <FeedBack />
       </div>
     </div>
   );
