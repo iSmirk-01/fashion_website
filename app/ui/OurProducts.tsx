@@ -7,7 +7,7 @@ import { roboto_Slab } from './fonts';
 function OurProducts() {
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center mx-auto">
+    <div className="min-h-screen w-full py-20 flex flex-col items-center">
       <div className="flex w-[80%] flex-col items-center gap-20">
         <h1
           className={`${roboto_Slab.className} text-greenDark text-5xl whitespace-nowrap`}

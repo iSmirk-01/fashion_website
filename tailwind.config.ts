@@ -10,7 +10,8 @@ export default {
   theme: {
     extend: {
       screens: {
-        largeTab: "1620px"
+        largeTab: "1620px",
+        ShowCaseLg: "1366",
       },
       colors: {
         background: "var(--background)",

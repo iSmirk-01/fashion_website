@@ -11,7 +11,7 @@ function Offer() {
   }
 
   return (
-    <div className="w-[80%] mx-auto flex items-center justify-center max-h-[400px]">
+    <div className="flex items-center justify-center min-h-[400px]">
       <div className="grid grid-cols-1 md:grid-cols-2 place-items-center bg-lime w-[1293px] p-10">
         <Image src={greenShirt} alt={"a woman posing"} />
         <div className="flex flex-col items-start justify-center text-greenDark gap-6">
