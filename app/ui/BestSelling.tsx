@@ -1,5 +1,5 @@
 import Card from "../components/Card";
-import { roboto_Slab } from "./fonts"
+import { roboto_Slab } from "../lib/fonts"
 import { FaArrowRightLong } from "react-icons/fa6";
 import pex1 from '@/public/images/pexels-dima-valkov-6211621 1.png'
 import pex2 from '@/public/images/pexels-dima-valkov-6211616 (1) 2.png'

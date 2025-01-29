@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../components/Card'
 import product from '../lib/data'
 import Link from 'next/link';
-import { roboto_Slab } from './fonts';
+import { roboto_Slab } from '../lib/fonts';
 
 function OurProducts() {
 
@@ -32,7 +32,7 @@ function OurProducts() {
           {product.map((item, index: React.Key | null) => (
             <Card
               key={index}
-              className={"bg-lime max-w-[299.31] max-h-[355.78]"}
+              className={"bg-lime max-w-[299.31px] max-h-[355.78px]"}
               src={item.image}
               alt={item.title}
               title={item.title}

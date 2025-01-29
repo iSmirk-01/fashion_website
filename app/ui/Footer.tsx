@@ -1,7 +1,7 @@
 import { AiOutlineFacebook } from "react-icons/ai";
 import { LuTwitter } from "react-icons/lu";
 import { FiInstagram } from "react-icons/fi";
-import { roboto_Slab } from "./fonts";
+import { roboto_Slab } from "../lib/fonts";
 import LinkLi from "../components/LinkLi";
 
 function Footer() {

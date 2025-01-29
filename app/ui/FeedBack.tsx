@@ -1,6 +1,6 @@
 import React from 'react'
 import QuoteCard from '../components/QuoteCard'
-import { roboto_Slab } from './fonts';
+import { roboto_Slab } from '../lib/fonts';
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 

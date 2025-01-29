@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import DaysBox from '../components/DaysBox';
 import greenShirt from '@/public/svg/Group 37.svg'
-import { roboto_Slab } from './fonts';
+import { roboto_Slab } from '../lib/fonts';
 
 function Offer() {
 

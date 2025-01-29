@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { rufina } from './fonts'
+import { rufina } from '../lib/fonts'
 import WomanStance from '@/public/images/WomanStance.png'
 
 function Hero() {

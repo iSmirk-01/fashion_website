@@ -1,6 +1,6 @@
 'use client'
 
-import { rufina } from "./fonts";
+import { rufina } from "../lib/fonts";
 import LinkLi from "../components/LinkLi";
 import Image from "next/image";
 import ShopIcon from '@/public/svg/ShopIcon.svg'

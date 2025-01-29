@@ -1,5 +1,5 @@
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
-import { roboto_Slab } from "../ui/fonts";
+import { roboto_Slab } from "../lib/fonts";
 
 interface Props {
     title: string;

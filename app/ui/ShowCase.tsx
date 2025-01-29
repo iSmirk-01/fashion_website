@@ -1,5 +1,5 @@
 import React from 'react'
-import { roboto_Slab } from './fonts';
+import { roboto_Slab } from '../lib/fonts';
 import CardShowCase from '../components/CardShowCase';
 import img1 from '@/public/images/img1.png'
 import img2 from '@/public/images/img2.png'
